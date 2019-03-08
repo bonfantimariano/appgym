@@ -3,3 +3,6 @@
 NodeJS + MongoDB API for User Management, Authentication and Registration
 
 For documentation and instructions check out http://jasonwatmore.com/post/2018/06/14/nodejs-mongodb-simple-api-for-authentication-registration-and-user-management
+
+# Storing and Retreiving Images in MongoDB with Nodejs
+https://steemit.com/utopian-io/@morningtundra/storing-and-retreiving-images-in-mongodb-with-nodejs
