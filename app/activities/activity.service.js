@@ -1,9 +1,5 @@
-const config = require('../../config');
-const jwt = require('jsonwebtoken');
-const bcrypt = require('bcryptjs');
 const db = require('../_helpers/db');
 const Activity = db.Activity;
-const mongoose = require('mongoose');
 
 module.exports = {
     getAll,
