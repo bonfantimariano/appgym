@@ -17,7 +17,8 @@ async function getAll(userId) {
 }
 
 async function getById(id) {
-    return await Client.findById(id).select('-hash');
+    return await Client.findById(id).select('-hash').
+    populate({ path: 'activity', model: Activity });
 }
 
 async function create(clientParam) {
